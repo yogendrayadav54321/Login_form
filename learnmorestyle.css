@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.container0{
+    display: flex;
+    flex-direction: row;
+    height: vh;
+    width: 100vw;
+}
+.container1{
+height: 100vh;
+width: 50vw;
+background-color: black;
+color: orange;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+.container2{
+    background-color: yellow;
+height: 100vh;
+width: 50vw;
+background-image: url("photoy.jpg");
+background-size: cover;
+border-radius: 50%;
+
+}

@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, rgb(251, 201, 107), rgb(166, 108, 0));
+}
+.container1{
+    height: 100vh;
+    width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+}
+.container2{
+height: 70vh;
+width: 70vw;
+display: flex;
+flex-direction: row;
+background-color: black;
+border-radius: 15px;
+
+}
+.box1{
+height:100% ;
+width: 50%;
+background-image: url("wallpaper.jpg");
+background-size: cover;
+border-bottom-left-radius: 15px;
+border-top-left-radius: 15px;
+background-position: center;
+}
+.box2{
+height:100% ;
+width: 50%;
+background-color: white;
+color: gray;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border-bottom-right-radius: 15px;
+border-top-right-radius: 15px;
+}
+.box1 h5{
+    color: white;
+    margin: 50px;
+    font-size: 28px;
+}
+.box1 h2{
+    color: orange;
+    
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 48px;
+}
+.box1 span{
+    color: orange;
+    font-size: 48px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.box1 h6{
+    color: orange;
+    margin-left: 50px;
+    margin-top: 200px;
+    font-size: 12px;
+}
+.box2 h1{
+    color: orange;
+    border-bottom: 3px solid orange;
+    
+}
+.box2 i{
+font-size: 30px;
+
+}
+input{
+  width: 300px;   /* make wider */
+  height: 30px;   /* make taller */
+  font-size: 15px; /* make text bigger inside */
+  padding: 5px;  
+  margin: 10px;/* add space inside */
+}
+label{
+    gap: 8px;
+}
+input[type="checkbox"]{
+    width: 30px;
+}
+.box2 span{
+   font-size: 18px
+   
+}
+.box2 button{
+height: 50px;
+width: 100px;
+font-size: 22px
+
+
+}
+a {
+text-decoration: none;
+color: inherit;
+}
